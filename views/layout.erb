@@ -1,12 +1,14 @@
 <html>
   <style>
     body {
+      padding-top: 2em;
       text-align: center;
-      margin: 10em 2em;
+      padding-bottom: 40px;
     }
+
     #examples, .mods {
-      width: 50%;
-      min-height: 100px;
+      width: 80%;
+      min-height: 200px;
       display: inline-block;
       text-align: left;
       padding: 5px;
@@ -19,15 +21,12 @@
       vertical-align: top;
       width: 90%;
     }
-    
-      body {
-        text-align: center;
-        margin: 10em 2em;
-      }
-      .view-mods {
-        display: inline-block;
-        text-align: left;
-      }
+
+    .view-mods {
+      display: inline-block;
+      text-align: left;
+      width: 80%;
+    }
   </style>
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 
@@ -40,7 +39,8 @@
         var editor = ace.edit("mods");
         editor.setTheme("ace/theme/monokai");
         editor.getSession().setMode("ace/mode/xml");
-        
+        $('#mods').css('fontSize', '16px');
+
         var textarea = $('textarea[name="mods"]');
         textarea.hide();
         editor.getSession().setValue(textarea.val());
@@ -60,5 +60,10 @@
     <div class="container">
       <%= yield %>
     </div>
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="/"><%= @page_title %> (<%= ModsDisplay::VERSION %>)</a>
+       </div>
+    </nav>
   </body>
 </html>
