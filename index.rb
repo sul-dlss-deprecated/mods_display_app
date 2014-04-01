@@ -4,7 +4,7 @@ require 'net/http'
 
 get '/' do
   set_page_title
-  erb :index
+  erb :index, layout: true
 end
 
 post '/mods' do
@@ -22,7 +22,7 @@ end
 def mods_action
   set_page_title
   @mods = mods params[:mods]
-  erb :mods
+  erb :mods, layout: true
 end
 
 def mods param
@@ -38,5 +38,3 @@ def mods param
     "Unable to process MODS"
   end
 end
-
-

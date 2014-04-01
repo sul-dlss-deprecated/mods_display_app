@@ -1,61 +1,12 @@
-<html>
-  <style>
-    body {
-      text-align: center;
-      margin: 10em 2em;
-    }
-    #examples, .mods {
-      width: 50%;
-      min-height: 100px;
-      display: inline-block;
-      text-align: left;
-      padding: 5px;
-      border: 1px solid #cccccc;
-      -webkit-border-radius: 4px;
-      -moz-border-radius: 4px;
-      border-radius: 4px;
-    }
-    textarea {
-      vertical-align: top;
-      width: 90%;
-    }
-  </style>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js" ></script>
-  <script type="text/javascript">
-    function fetchContentEditable() {
-      $("[contenteditable='true']").each(function(){
-        var input = $("input[name='" + $(this).attr('id') + "']", $(this).closest('form'));
-        if ( input && input.val() != "" ) {
-          $(this).text(input.val());
-        }
-      });
-    }
-    function saveContentEditable(){
-      $("[data-behavior='mods-form']").each(function(){
-        var form = $(this);
-        form.on('submit', function(){
-          $("[contenteditable='true']", form).each(function(){
-            $("input[name='" + $(this).attr('id') + "']").val($(this).text());
-          });
-        });
-      });
-    }
-    $(document).ready(function(){
-      saveContentEditable();
-      $("a[href='#examples']").on('click', function(){
-        $("#examples").toggle();
-      });
-    });
-  </script>
-  <title><%= @page_title %></title>
-  <body>
+
     <h1><%= @page_title %> (<%= ModsDisplay::VERSION %>)</h1>
     <h3>Enter XML or URL</h3>
-    <form data-behavior="mods-form" action="/mods" method="POST">
+    <form class="form" data-behavior="mods-form" action="/mods" method="POST">
+      <textarea name='mods'></textarea>
       <div id="mods" class="mods" contenteditable="true"></div>
       <br/><br/>
-      <button>Show me the MODS!</button>
-      <input type="hidden" name='mods' />
+      <button class='btn btn-primary btn-lg'>Show me the MODS!</button>
+      
     </form>
     <a href="#examples">Examples</a><br/>
     <div id="examples" style="display:none">
@@ -84,8 +35,3 @@
         </li>
       </ol>
     </div>
-    <script type="text/javascript">
-      fetchContentEditable();
-    </script>
-  </body>
-</html>
