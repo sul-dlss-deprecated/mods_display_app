@@ -42,7 +42,8 @@
     }
     $(document).ready(function(){
       saveContentEditable();
-      $("a[href='#examples']").on('click', function(){
+      $("a[href='#examples']").on('click', function(e){
+        e.preventDefault();
         $("#examples").toggle();
       });
     });
