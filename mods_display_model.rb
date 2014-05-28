@@ -1,5 +1,4 @@
 require 'mods_display'
-require "stanford-mods" # don't know why I have to explicitly load this
 
 class ModsDisplayModel
   attr_accessor :modsxml
