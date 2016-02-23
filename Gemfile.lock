@@ -16,9 +16,9 @@ GEM
       iso-639
       nokogiri
       nom-xml (~> 0.5.2)
-    mods_display (0.4.0)
+    mods_display (0.4.1)
       i18n
-      stanford-mods (< 1.2.0)
+      stanford-mods (~> 2.1)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
     nom-xml (0.5.4)
@@ -32,7 +32,8 @@ GEM
       rack (~> 1.5)
       rack-protection (~> 1.4)
       tilt (>= 1.3, < 3)
-    stanford-mods (1.1.5)
+    stanford-mods (2.2.0)
+      activesupport
       mods (~> 2.0.2)
     thread_safe (0.3.5)
     tilt (2.0.2)
