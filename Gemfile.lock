@@ -30,12 +30,12 @@ GEM
       i18n
       nokogiri
     rack (2.0.5)
-    rack-protection (2.0.2)
+    rack-protection (2.0.3)
       rack
-    sinatra (2.0.2)
+    sinatra (2.0.3)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.2)
+      rack-protection (= 2.0.3)
       tilt (~> 2.0)
     stanford-mods (2.5.1)
       activesupport
