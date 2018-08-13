@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.0)
+    activesupport (5.2.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
@@ -9,23 +9,23 @@ GEM
     concurrent-ruby (1.0.5)
     edtf (3.0.4)
       activesupport (>= 3.0, < 6.0)
-    i18n (1.0.1)
+    i18n (1.1.0)
       concurrent-ruby (~> 1.0)
     iso-639 (0.2.8)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    mods (2.3.1)
+    mods (2.4.0)
       edtf
       iso-639
       nokogiri
-      nom-xml (~> 0.6.0)
+      nom-xml (~> 1.0)
     mods_display (0.5.1)
       i18n
       stanford-mods (~> 2.1)
     mustermann (1.0.2)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
-    nom-xml (0.6.0)
+    nom-xml (1.0.0)
       activesupport (>= 3.2.18)
       i18n
       nokogiri
