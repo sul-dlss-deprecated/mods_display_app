@@ -22,7 +22,7 @@ GEM
     mods_display (0.5.1)
       i18n
       stanford-mods (~> 2.1)
-    mustermann (1.0.2)
+    mustermann (1.0.3)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
     nom-xml (1.0.0)
