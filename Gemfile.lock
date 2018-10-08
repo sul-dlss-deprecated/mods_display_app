@@ -23,7 +23,7 @@ GEM
       i18n
       stanford-mods (~> 2.1)
     mustermann (1.0.3)
-    nokogiri (1.8.4)
+    nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
     nom-xml (1.0.0)
       activesupport (>= 3.2.18)
