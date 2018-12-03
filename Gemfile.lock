@@ -41,7 +41,7 @@ GEM
       activesupport
       mods (~> 2.2)
     thread_safe (0.3.6)
-    tilt (2.0.8)
+    tilt (2.0.9)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
 
