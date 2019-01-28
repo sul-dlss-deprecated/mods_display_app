@@ -9,7 +9,7 @@ GEM
     concurrent-ruby (1.1.4)
     edtf (3.0.4)
       activesupport (>= 3.0, < 6.0)
-    i18n (1.5.2)
+    i18n (1.5.3)
       concurrent-ruby (~> 1.0)
     iso-639 (0.2.8)
     mini_portile2 (2.4.0)
