@@ -1,14 +1,14 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.2.3)
+    activesupport (6.0.0)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
+      zeitwerk (~> 2.1, >= 2.1.8)
     concurrent-ruby (1.1.5)
-    edtf (3.0.4)
-      activesupport (>= 3.0, < 6.0)
+    edtf (0.0.3)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     iso-639 (0.2.8)
@@ -44,6 +44,7 @@ GEM
     tilt (2.0.9)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    zeitwerk (2.1.9)
 
 PLATFORMS
   ruby
