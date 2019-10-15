@@ -54,8 +54,5 @@ DEPENDENCIES
   mods_display
   sinatra
 
-RUBY VERSION
-   ruby 2.3.1p112
-
 BUNDLED WITH
    1.17.3
