@@ -10,11 +10,11 @@ GEM
     concurrent-ruby (1.1.5)
     edtf (3.0.5)
       activesupport (>= 3.0, < 7.0)
-    i18n (1.7.0)
+    i18n (1.8.2)
       concurrent-ruby (~> 1.0)
     iso-639 (0.2.8)
     mini_portile2 (2.4.0)
-    minitest (5.13.0)
+    minitest (5.14.0)
     mods (2.4.1)
       edtf
       iso-639
@@ -23,27 +23,29 @@ GEM
     mods_display (0.7.1)
       i18n
       stanford-mods (~> 2.1)
-    mustermann (1.0.3)
+    mustermann (1.1.1)
+      ruby2_keywords (~> 0.0.1)
     nokogiri (1.10.7)
       mini_portile2 (~> 2.4.0)
     nom-xml (1.1.0)
       activesupport (>= 3.2.18)
       i18n
       nokogiri
-    rack (2.0.8)
-    rack-protection (2.0.7)
+    rack (2.1.1)
+    rack-protection (2.0.8.1)
       rack
-    sinatra (2.0.7)
+    ruby2_keywords (0.0.2)
+    sinatra (2.0.8.1)
       mustermann (~> 1.0)
       rack (~> 2.0)
-      rack-protection (= 2.0.7)
+      rack-protection (= 2.0.8.1)
       tilt (~> 2.0)
     stanford-mods (2.6.1)
       activesupport
       mods (~> 2.2)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.5)
+    tzinfo (1.2.6)
       thread_safe (~> 0.1)
     zeitwerk (2.2.2)
 
