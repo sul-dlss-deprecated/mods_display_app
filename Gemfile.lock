@@ -14,7 +14,7 @@ GEM
       concurrent-ruby (~> 1.0)
     iso-639 (0.3.5)
     mini_portile2 (2.4.0)
-    minitest (5.14.1)
+    minitest (5.14.2)
     mods (2.4.1)
       edtf
       iso-639
@@ -32,13 +32,13 @@ GEM
       i18n
       nokogiri
     rack (2.2.3)
-    rack-protection (2.0.8.1)
+    rack-protection (2.1.0)
       rack
     ruby2_keywords (0.0.2)
-    sinatra (2.0.8.1)
+    sinatra (2.1.0)
       mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.8.1)
+      rack (~> 2.2)
+      rack-protection (= 2.1.0)
       tilt (~> 2.0)
     stanford-mods (2.6.2)
       activesupport
