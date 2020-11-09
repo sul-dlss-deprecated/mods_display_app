@@ -8,7 +8,7 @@ GEM
       tzinfo (~> 1.1)
       zeitwerk (~> 2.2, >= 2.2.2)
     concurrent-ruby (1.1.7)
-    edtf (3.0.5)
+    edtf (3.0.6)
       activesupport (>= 3.0, < 7.0)
     i18n (1.8.5)
       concurrent-ruby (~> 1.0)
@@ -45,7 +45,7 @@ GEM
       mods (~> 2.2)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.7)
+    tzinfo (1.2.8)
       thread_safe (~> 0.1)
     zeitwerk (2.4.1)
 
