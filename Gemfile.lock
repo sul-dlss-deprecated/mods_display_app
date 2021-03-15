@@ -20,12 +20,12 @@ GEM
       iso-639
       nokogiri (>= 1.6.6)
       nom-xml (~> 1.0)
-    mods_display (0.8.0)
+    mods_display (0.9.0)
       i18n
       stanford-mods (~> 2.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     nom-xml (1.1.0)
